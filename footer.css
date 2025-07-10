@@ -1,0 +1,7 @@
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(#ffa99f,#fff7ad);
+    height: 5vh;
+    align-items: center;
+}

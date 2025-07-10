@@ -1,0 +1,81 @@
+.main{
+    height: 90vh;
+    display: flex;
+}
+.left{
+    
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+.photo{
+    padding: 0 5vw;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+.photo img{
+    height: 23rem;
+    border-radius: 2rem;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+.designation{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.resume{
+    display: flex;
+    justify-content: center;
+}
+.resume a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(70, 57, 57);
+    border-radius: 1rem;
+}
+.resume a:hover{
+    background-color: black;
+}
+.social-links ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.links{
+    display: flex;
+    margin: 0.5rem 4rem;
+    padding: 0.5rem;
+}
+.links a{
+    border-radius: 1rem;
+}
+.links a img{
+    height: 3rem;
+}
+.links a:hover{
+    box-shadow: 2px 2px 5px 2px black;
+}
+.right{
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about{
+    padding: 2rem
+}

@@ -1,0 +1,33 @@
+.main{
+    padding: 2rem;
+    height: 90vh;
+    background: linear-gradient(rgb(201, 162, 168),rgb(212, 212, 197));
+}
+.education{
+    margin: 1rem;
+    padding: 1rem;
+}
+.current{
+    margin: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    margin: 1rem;
+}
+.details{
+    display: flex;
+    margin: 10rem 0;
+    padding: 1rem;
+
+}
+.box-1{
+    margin: 0 3rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(133, 120, 120),rgb(162, 110, 110));
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px 2px grey;
+}
